@@ -6,7 +6,7 @@
 ### setup
 node and yarn are all that's needed, after installing the dependencies, edit the .env file to include your discord bot token, aidungeon token, owner id, and prefix.
 ```sh
-$ git clone https://github.com/sad/dungeoncord && cd $_
+$ git clone https://github.com/sad/dungeoncord && cd dungeoncord
 $ yarn
 $ cp .env.example .env
 ```
