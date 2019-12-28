@@ -23,10 +23,7 @@ client.on('ready', () => {
   logger.info(`Logged in as ${client.user.tag}.`);
   dungeon.connect(process.env.AIDUNGEON_TOKEN, process.env.USER_AGENT || defaultUA);
   client.user.setPresence({
-    game: {
-      name: 'aidungeon.io',
-      url: 'https://github.com/sad/dungeoncord',
-    },
+    game: { name: 'aidungeon.io' },
     status: 'dnd',
   });
 });
