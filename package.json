@@ -1,0 +1,21 @@
+{
+  "name": "dungeoncord",
+  "version": "1.0.0",
+  "description": "aidungeon.io, for discord.",
+  "main": "index.js",
+  "repository": "https://github.com/sad/dungeoncord",
+  "author": "reid",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "discord-akairo": "^7.5.6",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  }
+}
